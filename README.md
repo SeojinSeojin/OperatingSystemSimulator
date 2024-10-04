@@ -2,6 +2,8 @@
 
 Shout out to Prof. Ryu
 
+This project earned me the highest grade in my Operating Systems class.
+
 ## Term #1 : Round Robin Scheduler
 
 This project aims to simulate the Round-Robin scheduling algorithm, one of the operating system scheduling techniques. To organize a complex process management system, a primary process creates and manages ten child processes, and the parent and child processes exchange messages with each other through an Inter-Process Communication (IPC) message queue. Each child process performs tasks according to a fixed time quantity and can generate IO bursts according to a random probability. When an IO Burst occurs, it immediately leaves the execution state and returns after performing IO operations. The main goal of this project is to implement a Round-Robin scheduler, understand how it works, and analyze the impact of scheduling parameters such as Time Quantum on the efficiency of the scheduler.
